@@ -141,21 +141,8 @@
 Сервер доступен на порту `80`.  
 После загрузки изображений они будут доступны по URL:
 
-```
-http://localhost/uploads/<filename>
-```
-
-````
-
----
-
 ### **Интерфейсы продуктов**
-
-Создайте файл `interfaces.ts` для определения типов и интерфейсов:
-
-```typescript
-// interfaces.ts
-
+```
 export interface Product {
   productID: number;
   name: string;
